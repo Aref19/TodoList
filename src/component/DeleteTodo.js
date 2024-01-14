@@ -7,8 +7,9 @@ const DeleteTodo = ({ show, setShowDealog, todd }) => {
     const { todos, addTodo } = useContext(TodoContext);
     if (!show) return null;
 
-    return (
+    return (   
         <>
+        
             <div style={{
                 display: "flex", flexDirection: "column", width: "200px", height: "200px", border: "1px solid", justifyContent: "center", backgroundColor: "gray",
                 zIndex: "1", position: "absolute", margin: "0 auto",
